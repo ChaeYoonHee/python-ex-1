@@ -6,10 +6,10 @@ sum = first + second
 print('{}와 {}의 합은 {}입니다.'.format(first, second, sum))
 
 
-month=(input('1~12 사이의 월을 입력하세요 >>>'))
+month=(int(input('1~12 사이의 월을 입력하세요 >>>')))
 list = [31,28,30]
 
-print('{}은 {}일까지 있습니다.' .format(month, list))
+print('{}은 {}일까지 있습니다.' .format(month, list[month-1]))
 
 
 word = input('영어 단어를 입력하세요 >>>')
